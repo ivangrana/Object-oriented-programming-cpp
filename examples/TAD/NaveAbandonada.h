@@ -23,6 +23,7 @@ public:
     const std::string& getNome() const;
     void setNome(const std::string& nome);
     void printNome() const; 
+
 private:
     int integridade;
     double energia;
